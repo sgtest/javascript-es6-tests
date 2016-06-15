@@ -1,10 +1,10 @@
 (function() {
 	// expression bodies
-    [].map((v, i) = > v + i);
+    [].map((v, i) => v + i);
 
 
     // statement bodies
-    [].forEach(v = > {
+    [].forEach(v => {
         v++;
     });
 
@@ -12,7 +12,7 @@
     class lexicalthis {
         constructor() {
             this.c = 0;
-            setInterval(() = > {
+            setInterval(() => {
                 this.c++;}, 1000);
         }
     }
