@@ -45,6 +45,14 @@ A.method();
 var AGirlHasNoName = class {
 
 	constructor() {
+		this.x = 1;
+	}
+};
+var arya = new AGirlHasNoName();
+
+// class without a name
+class {
+	constructor() {
+		this.y = 1;
 	}
 }
-var arya = new AGirlHasNoName();
