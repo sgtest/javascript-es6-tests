@@ -8,7 +8,8 @@
             "classes.js",
             "variables.js",
             "objectproperties.js",
-            "parameters.js"
+            "parameters.js",
+            "destructuring-assignment.js"
          ],
          "Dir":"."
       }
